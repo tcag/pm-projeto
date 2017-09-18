@@ -7,54 +7,22 @@ body {
     background-color:#e6e6e6;
     font-family:open sans;
     width: 100%;
-}
+    }
 
-.menu{
-    list-style: none;
-    font-size:18px;
-     text-decoration-color: #ffffff;
-     
-}
-.menu li{
-     display:inline-block;
-     margin:8px;
-     padding: 2px 10px;
-    text-decoration-color: #ffffff;
-    
-         
-    
-}
-.menu li a:hover{
-     border-bottom: 3px solid #EA0000; 
-     color:white;
-}
 
-hr{
-      border: 1px solid #f00;
-      background-color: #f00;
-      height: 5px;
-    
-}
 .noticia{
-   width: 300px;
    background-color:#ffffff;
    border-radius: 0 0 2px 2px;
    box-shadow: 0 1px 1px rgba(153, 153, 153, 0.5);
-   display:table;
    margin:10px;
-   float: left;
-
-   
+    
 }
 
 
 img {
-    
      border-radius:2px 1px 0 0;
      transition: 0,2s;
-     display:block;
-     
-           
+     width: 100%;          
 }
 
   
@@ -82,8 +50,6 @@ img {
 }
 
 .title{
-    width:283px;
-    height:54px;
     color:#b5000d;
     font-size:16px;
     font-weight: 700;
@@ -102,7 +68,5 @@ a{
     line-height: 16px;
     margin-top:9px;
     margin-left:9px;
-    margin-bottom: 25px;
-    
-    
+    margin-bottom: 25px; 
 }

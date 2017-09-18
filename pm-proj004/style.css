@@ -9,10 +9,7 @@ ul{
     list-style: none;
     margin:0;
     padding:0;
-    
-
-    
-}
+    }
 
 li {
     font-family: 'Oswald',sans-serif;
@@ -22,9 +19,7 @@ li {
     letter-spacing: 2px;
     font-weight: 500;
     padding: 60px 91px 60px;
-    
-    
-}  
+    }  
 
 .ok{
     background: url(yes.png) no-repeat 2% , url(seta.png) no-repeat 95%; 
@@ -46,8 +41,6 @@ li {
 }
 a{
     text-decoration: none;
-   
-    
-    
+      
 }
 
