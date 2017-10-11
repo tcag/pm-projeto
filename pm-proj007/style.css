@@ -1,0 +1,205 @@
+body{
+    background: url(fundo.png) no-repeat;
+    font-family:'Lato', sans-serif;
+    -webkit-font-smoothing:antialiased;
+}
+
+.container{
+    width: 960px;
+    margin:0 auto;
+   }
+
+nav .logo{
+    background: url(depoimento.png);
+}
+
+#topo{
+     height:719px;
+}
+
+nav img{
+    float: left; 
+    padding-top: 10px;
+    
+}
+
+nav ul {
+    text-align: center;
+    padding-top: 40px;
+}
+
+nav ul li{
+     list-style: none;
+     display: inline-block;
+     padding-right:90px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav ul li :hover{ 
+    border-radius: 3px;
+    border: 1px solid #ffffff;
+    padding: 12px 32px 12px 32px;
+}
+
+#topo h2{
+    padding-top: 152px;
+    padding-left: 68px;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 7px;    
+}
+
+#topo h3{
+    margin:0;
+    padding-left: 23px;
+    padding-bottom: 45px;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+#topo a{
+    padding: 19px 149px 19px 149px;
+    box-shadow: 0 6px 0 #a32751;
+    border-radius: 3px;
+    background-color: #ff3d7f;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+#sobre img{
+    float:left;
+    padding-top:65px;
+    padding-right: 100px;
+}
+
+#sobre{
+    height: 553px;
+}
+
+#sobre h2{
+    color: #000000;
+    font-size: 36px;
+    font-weight: 500;
+    margin:0;
+    padding-top: 109px;
+    padding-bottom: 21px;
+    
+}
+
+#sobre p{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 300; 
+    margin:0;
+    padding-bottom: 61px;
+}
+
+#sobre a {
+    box-shadow: 0 6px 0 #a32751;
+    text-decoration: none;
+    border-radius: 3px;
+    background-color: #ff3d7f;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 18px 61px 18px 61px;
+    
+}
+
+#depoimento{
+    height: 424px;
+    background-color: #ebe8fb;
+    margin-top:3px;
+    border-top: solid #511099;
+    text-align:  center;
+}
+
+#depoimento img{
+    padding-top: 65px;
+    
+}
+
+#depoimento h3{
+    margin:0;
+    padding-top: 22px;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#depoimento span{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#convite{
+    height:424px;
+    background: url(fundo-convite.png)no-repeat;
+    text-align: center;
+    display: flex;
+	justify-content: center;
+	flex-direction: column;
+    
+}
+
+#convite form {
+    display: inline-block;
+    border-radius: 3px;
+    background-color: #ffffff;
+    opacity: 0.89;
+    color: #4a4a4a;
+    font-size: 24px;
+    font-weight: 400;  
+    height: 120px;
+    width: 671px;
+    
+   
+}
+
+#convite input{    
+    width: 480px;
+    color: #4a4a4a;
+    font-size: 24px;
+    font-weight: 400;
+    border: none;
+    margin:0;
+    padding: 44px 0px 44px 40px;
+    text-align: center;
+    
+}
+
+#convite button{
+    background-color: transparent;
+    border:none;
+    vertical-align: middle;
+    padding-right: 37px;
+    
+}
+
+footer{
+    height: 91px;
+    background-color: #2a0157;
+    text-align: center;
+    }
+
+footer h5{
+    margin-top:3px;
+    padding-top: 34px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+    
+
