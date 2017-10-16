@@ -1,205 +1,222 @@
 body{
-    background: url(fundo.png) no-repeat;
+    margin: 0;
     font-family:'Lato', sans-serif;
-    -webkit-font-smoothing:antialiased;
-}
-
+    -webkit -font -smoothing:antialiased;
+    }
 .container{
-    width: 960px;
+    max-width: 960px;
     margin:0 auto;
-   }
-
-nav .logo{
-    background: url(depoimento.png);
+    display: flex;
+    justify-content:space-between;
+    padding-left: 20px
+        
 }
-
-#topo{
-     height:719px;
+.botao{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 6px 0 #a32751;
+    border-radius: 3px;
+    background-color: #ff3d7f;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 300;
+    text-decoration: none; 
+    display: block;
+    text-align: center;
 }
+header{
+    margin-bottom: -100px;
 
-nav img{
-    float: left; 
-    padding-top: 10px;
+}
+header h1{
+    margin:0;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    width: 177px;
+    height: 76px;
+    margin-top:20px; 
+}
+header h1 span{
+    visibility:hidden;
+}
+header nav li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 90px;
+}
+header nav ul{
+    padding-right: 80px;
+    margin:0;
+    margin-top:20px;
     
 }
-
-nav ul {
-    text-align: center;
-    padding-top: 40px;
-}
-
-nav ul li{
-     list-style: none;
-     display: inline-block;
-     padding-right:90px;
-}
-
-nav ul li a {
+header nav li a {
     text-decoration: none;
     color: #ffffff;
     font-size: 20px;
     font-weight: 700;
-}
 
-nav ul li :hover{ 
+    
+}
+nav ul li:last-child{ 
     border-radius: 3px;
     border: 1px solid #ffffff;
-    padding: 12px 32px 12px 32px;
+    padding: 10px 30px 10px 30px;
 }
-
-#topo h2{
-    padding-top: 152px;
-    padding-left: 68px;
+section#topo{
+    background-image: url(fundo.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 727px;    
+}
+section#topo .chamada{
+    margin-top: 225px;
     color: #ffffff;
+    text-align: center;
+}
+section#topo .chamada h2{  
     font-size: 50px;
     font-weight: 500;
-    margin-bottom: 7px;    
+    margin:0;   
 }
-
-#topo h3{
+section#topo .chamada p{
     margin:0;
-    padding-left: 23px;
     padding-bottom: 45px;
-    color: #ffffff;
     font-size: 36px;
     font-weight: 300;
 }
-
-#topo a{
-    padding: 19px 149px 19px 149px;
-    box-shadow: 0 6px 0 #a32751;
-    border-radius: 3px;
-    background-color: #ff3d7f;
-    color: #ffffff;
-    font-size: 36px;
-    font-weight: 300;
-    text-decoration: none;
+section#sobre .conheca{
+    
+    }
+section#sobre{
+    padding:70px;
 }
 
-#sobre img{
-    float:left;
-    padding-top:65px;
-    padding-right: 100px;
+section#sobre .conheca{
+    padding: 70px;
+    padding-top: 30px;
+    padding-right: 30px;
 }
-
-#sobre{
-    height: 553px;
-}
-
-#sobre h2{
+section#sobre .conheca h2{
     color: #000000;
     font-size: 36px;
     font-weight: 500;
-    margin:0;
-    padding-top: 109px;
-    padding-bottom: 21px;
-    
 }
-
-#sobre p{
+section#sobre .conheca p{
     color: #000000;
     font-size: 24px;
-    font-weight: 300; 
-    margin:0;
-    padding-bottom: 61px;
-}
-
-#sobre a {
-    box-shadow: 0 6px 0 #a32751;
-    text-decoration: none;
-    border-radius: 3px;
-    background-color: #ff3d7f;
-    color: #ffffff;
-    font-size: 30px;
-    font-weight: 300;
-    padding: 18px 61px 18px 61px;
+    font-weight: 300;  
     
 }
-
-#depoimento{
+section#sobre .conheca a{
+    width: 60%;
+    font-size: 30px;
+    
+}
+section#depoimento{
     height: 424px;
     background-color: #ebe8fb;
     margin-top:3px;
     border-top: solid #511099;
     text-align:  center;
-}
-
-#depoimento img{
-    padding-top: 65px;
-    
-}
-
-#depoimento h3{
-    margin:0;
-    padding-top: 22px;
     color: #000000;
     font-size: 24px;
+}
+section#depoimento img{
+    width: 151px;
+    height: 150px;
+    margin:0;
+    margin-top: 65px;  
+}
+section#depoimento .creditos p{
+    padding: 10px;
     font-weight: 300;
 }
-
-#depoimento span{
-    color: #000000;
+section#depoimento .creditos span{
     font-size: 24px;
     font-weight: 700;
 }
-
-#convite{
-    height:424px;
+section#convite{
+    padding-top: 150px;
+    padding-bottom: 150px;
     background: url(fundo-convite.png)no-repeat;
-    text-align: center;
-    display: flex;
-	justify-content: center;
-	flex-direction: column;
-    
+    background-size: cover;
+       
+}
+section#convite .container{
+    flex-direction: column;
+    align-items: center;
 }
 
-#convite form {
-    display: inline-block;
+section#convite form {
     border-radius: 3px;
     background-color: #ffffff;
     opacity: 0.89;
-    color: #4a4a4a;
-    font-size: 24px;
-    font-weight: 400;  
-    height: 120px;
-    width: 671px;
-    
-   
+    padding: 10px;
+    width: 70%;
 }
-
-#convite input{    
-    width: 480px;
-    color: #4a4a4a;
+section#convite form input{    
+    
+    width: 70%;
+    padding: 30px;
     font-size: 24px;
     font-weight: 400;
     border: none;
-    margin:0;
-    padding: 44px 0px 44px 40px;
-    text-align: center;
+    color: #4a4a4a;
     
 }
-
-#convite button{
+section#convite form button{
     background-color: transparent;
     border:none;
-    vertical-align: middle;
-    padding-right: 37px;
+    vertical-align: middle;    
     
 }
-
 footer{
     height: 91px;
     background-color: #2a0157;
-    text-align: center;
-    }
-
-footer h5{
-    margin-top:3px;
-    padding-top: 34px;
+    display: flex;
+    margin-top:3px
+}
+footer p {
+    margin:0;
+    margin-top: 34px;
     color: #ffffff;
     font-size: 18px;
     font-weight: 300;
     letter-spacing: 0.5px;
-}
-    
+}    
 
+@media (max-width:600px){
+    header nav{
+        display: none;
+        
+    }
+    header h1{
+        margin-left: 20px;   
+            
+    }
+    section#topo{
+        padding: 20px;
+    }
+    section#sobre .container{
+        flex-direction: column;
+        align-items: center;     
+    }
+
+section#sobre .container .conheca{
+     padding: 20px;
+    }
+section#sobre .container .conheca a{
+    
+    width: 100%;
+    }
+section#depoimento .container p{
+        padding: 10px;
+    }
+section#convite form{
+    display: block;   
+ 
+    }
+    footer{
+        text-align: center;
+    }}
